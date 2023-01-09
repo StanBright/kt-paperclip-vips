@@ -24,11 +24,12 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'kt-paperclip', "~> 7.0"
   spec.add_runtime_dependency "ruby-vips", "~> 2.1"
+  spec.add_runtime_dependency "activesupport", ">= 6.1"
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", "~> 13.0"
   spec.add_development_dependency "rspec", "~> 3.0"
-  spec.add_development_dependency "byebug", "~> 11.0"
-  # spec.add_development_dependency "activesupport", "~> 6.1"
-  # spec.add_development_dependency "activemodel", "~> 6.1"
+  spec.add_development_dependency "debug"
+  # spec.add_development_dependency "byebug", "~> 11.0"
+  spec.add_development_dependency "activemodel", ">= 6.1"
 end
