@@ -5,7 +5,7 @@ Bundler.setup
 # We need this because of this https://github.com/thoughtbot/paperclip/pull/2369
 require 'active_support/core_ext/module/delegation'
 require 'active_support/core_ext/object/try'
-require "paperclip-vips"
+require 'kt-paperclip-vips'
 require 'debug'
 
 RSpec.configure do |config|
